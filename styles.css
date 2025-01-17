@@ -1,0 +1,118 @@
+* {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    padding: 6rem;
+    background-color: #adc9eef8;
+    
+}
+
+.container {
+    height:450px;
+    width: 1000px;
+    display: flex;
+    justify-content: left;
+    background-image: url(./images/marwan-XJVxilpjmjY-unsplash.jpg);
+    background-size: cover;
+    border-radius: 3rem;
+    padding-inline-start: 2rem;
+    padding-block: 2rem;
+    box-shadow: 2px 3px 6px rgb(8, 8, 8);
+}
+
+.page-route {
+    width: 420px;
+    height: 450px;
+    background-color: #dce5f18a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 1rem;
+}
+
+.instruction{
+    background-color: #4badfd00;
+height: 90%;
+width: 95%;
+box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.24);
+background-color: rgba(245, 245, 245, 0.774);
+flex: row;
+}
+
+.instruction h2{
+color: darkblue;
+font-style: oblique;
+}
+
+.instruction h3{
+    color: darkslategrey;
+}
+
+.btn-instruction{
+    padding: 1.5rem;
+}
+
+.page-route button{
+    background-color: whitesmoke;
+    border-radius: 0.3rem ;
+    border-color: rgb(22, 22, 31);
+    border-style: inherit;
+    width: 22%;
+    height: 15;
+}
+
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.return-links button{
+ background-color: black;
+ color: aquamarine;
+ border-radius:  2rem;
+ border-style: none;
+}
+.return-links button:hover{
+ background-color: aquamarine;
+ color: black;
+ border-radius:  1rem;
+ border-style: none;
+ border: 2px solid black;
+}
+
+#login button {
+    background-color: black;
+    color: aquamarine;
+    border-radius: 2rem;
+    border-style: none;
+
+}
+#login input {
+    background-color: rgb(0, 0, 0);
+    color: aquamarine;
+}
+
+
+#login{
+    display: flex;
+        flex-direction: column;
+        width: 25%;
+}
+
+.login-link button{
+background-color: black;
+    color: aquamarine;
+    border-radius: 2rem;
+    border-style: none;
+}
+
+.gap{
+    display: flex;
+    flex-direction: column;
+    row-gap: 18rem;
+}

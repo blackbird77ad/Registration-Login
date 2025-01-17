@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Demo-register</title>
     <script src="./scripts/register.js" defer></script>
     
 </head>
@@ -12,18 +13,22 @@
         Register a New Account
     </h1>
 
-    <form id="register">
+    <form class="signup-form">
         <input type="text" placeholder="Enter your username" required name="username">
-        <input type="email" placeholder="Enter your email" required name="email">
+        <input type="email" placeholder="Enter an actual email" required name="email">
         <input type="password" placeholder="Enter you password" required name="password">
         <button type="submit">Submit</button>
     </form>
 
     <h1 id="message"></h1>
 
-    <div>
-        <a href="./index.html">Home</a>
-        <a href="./login.html">Login</a>
+    <div class="gap">
+        <div class="return-links">
+            <a href="./index.html"><button>Home</button></a>
+            <a href="./login.html"><button>Login</button></a>
+        </div>
+        
+        <footer class="register-footer">UI/UX under construction, focusing on backend integration for now| Sincerely Davida</footer>
     </div>
 </body>
 </html>
